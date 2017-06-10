@@ -1,0 +1,105 @@
+div.nav-content{
+  display: flex;
+}
+
+div.film-club-logo{
+  background: #F40086;
+  margin-left: -2%;
+}
+.nav-items-top {
+  list-style-type: none;
+  width: 100%;
+}
+
+.nav-content {
+  display: flex;
+  margin-top: -7%;
+}
+
+.home-link {
+  background-color: #00B7D3;
+  padding: 7%;
+  width: 100%;
+  color: white;
+  margin-left: -1%;
+
+}
+
+.calendar-link {
+  background-color: #7DDFE8;
+  padding: 7%;
+  width: 100%;
+  color: white;
+  margin-left: -1%;
+}
+
+.join-link {
+  background-color: #00D5E7;
+  padding: 7%;
+  width: 100%;
+  color: white;
+  margin-left: -1%;
+}
+.home-link li{
+  padding-bottom: 5%;
+}
+
+div.nav-links-top {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+ul.nav-links-top {
+  width: 100%;
+  margin-left: -10%;
+}
+ul.nav-links-top li{
+  margin:0 auto;
+  list-style: none;
+}
+
+.calendar{
+  margin-bottom: 15%;
+}
+div.calendar-title{
+  background: white;
+  color: black;
+}
+
+div.month-june{
+  background: #0B1135;
+  color: white;
+  width: 107%;
+}
+.month-june h2{
+  padding-top: 5%;
+  margin-left: 5%;
+  margin-top: -1%;
+}
+tbody{
+  font-size: larger;
+}
+td{
+  border: 1px solid #0B1135;
+  color: white;
+}
+tr{
+  background: #0B1135;
+}
+
+ul.nav-links-bottom{
+  width: 100%;
+  margin-left: -12%;
+}
+ul.nav-links-bottom li{
+  list-style: none;
+  margin:0 auto;
+}
+.trademark{
+  background: #74D7E3;
+}
+div.trademark li{
+  width: 100%;
+
+}

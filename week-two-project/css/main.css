@@ -1,0 +1,206 @@
+.nav-items-top {
+  list-style-type: none;
+  width: 100%;
+}
+
+.nav-content {
+  display: flex;
+  margin-top: -7%;
+}
+
+.home-link {
+  background-color: #00B7D3;
+  padding: 7%;
+  width: 100%;
+  color: white;
+  margin-left: -1%;
+
+}
+
+.calendar-link {
+  background-color: #7DDFE8;
+  padding: 7%;
+  width: 100%;
+  color: white;
+  margin-left: -1%;
+}
+
+.join-link {
+  background-color: #00D5E7;
+  padding: 7%;
+  width: 100%;
+  color: white;
+  margin-left: -1%;
+}
+.home-link li{
+  padding-bottom: 5%;
+}
+
+.nav-links-top {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+ul.nav-links-top {
+  width: 100%;
+  margin-left: -10%;
+}
+
+.film-club-logo {
+  background: deeppink;
+  margin-bottom: 72%;
+  margin-left: -2%;
+  margin-top: -2%;
+}
+
+h2 {
+  background: #0B1942;
+  color: #FFFFFF;
+  padding-left: 8%;
+}
+.discussion-points ul li{
+  list-style: circle;
+}
+
+.main-div{
+  margin-left: 10%;
+  margin-top: -75%;
+}
+div.second-div{
+  width: 100%;
+  background:white;
+}
+.up-next{
+      width: 110%;
+}
+.up-next h2{
+  padding-bottom: 10%;
+  margin-bottom: 0%;
+}
+
+div.main-film img{
+  width: 39%;
+  height: 50%;
+  padding-top: 10%;
+  padding-left: 5%;
+}
+div.four-film{
+  display: flex;
+  flex-wrap: wrap;
+  background: #DBDBDB;
+  border: 19px solid #0B1135;
+  width:100%;
+}
+div.rashomon-content{
+  background:white;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15%;
+}
+div.main-film-content{
+  display:flex;
+  border: 1px solid black;
+  width: 80%;
+  background: #DBDBDB;
+  position: relative;
+right: -10%;
+}
+div.main-film{
+  padding-bottom: 10%;
+  background:#0B1135;
+  width: 100%;
+  padding-right: 10%;
+}
+
+.up-next h2{
+  padding-left: 40%;
+}
+
+div#main-film-text{
+  display: flex;
+  flex-direction: column;
+  /*margin-top: -7%;*/
+
+}
+.rashomon-content h1{
+  text-decoration: underline;
+}
+
+div.rashomon-content{
+  background: #DBDBDB;
+
+}
+
+div.discussion-points{
+  padding-left: 15%;
+}
+div.film1-date{
+  display: flex;
+  margin-top:-15%;
+}
+.moviedate1 {
+  margin-left:5%;
+
+}
+div.train-text{
+  display:flex;
+  flex-direction: column;
+}
+div.train-rob-content{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+
+}
+.train-rob-content img{
+  width:50%;
+}
+.four-film img{
+  width: 45%;
+}
+.nav-links-bottom{
+  list-style: none;
+  width: 100%;
+  padding-left: 1%;
+}
+nav.bottom-nav{
+  margin-top 4%;
+}
+.trademark{
+  background: #74D7E3;
+  padding-left: 0%;
+  color: white;
+  width: 100%;
+  padding-right:13%;
+  margin-left:-1%;
+}
+div.the-bicycle-thief div{
+  width: 50%;
+}
+/*div.the-bicycle-thief img{
+  width: 45%;
+}*/
+div.nosferatru{
+  width: 45%;
+}
+div.metropolis{
+  width: 45%;
+
+}
+.four-film div{
+  flex-basis: 50%;
+}
+
+/*tablet: 1024x768*/
+@media (min-width: 545px) {
+ /*.nav-links-top {
+  display: flex;
+  flex-direction: row;
+ }*/
+ .nav-content{
+   display: flex;
+
+ }
+
+}
